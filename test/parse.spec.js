@@ -1,5 +1,5 @@
 import {expect} from 'chai'
-import { parse, circularReference } from '../src'
+import { parse, circularReference } from '../lib'
 
 describe('parse', function() {
 

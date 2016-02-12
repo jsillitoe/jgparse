@@ -2,7 +2,7 @@
   "name": "jgparse",
   "version": "1.0.0",
   "description": "Small library for using path sets to extract values from a JSON Graph object.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register"
   },
