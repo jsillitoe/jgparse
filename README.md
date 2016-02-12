@@ -2,10 +2,17 @@
 
 A small library for using path sets to extract values from a JSON Graph object.
 
+## Install
+
+```
+npm install jgparse --save
+```
 
 ## Example
 
 ```js
+
+import { parse } from 'jgparse'
 
 var graph = {
     "user_preferencesById": {
@@ -38,6 +45,9 @@ var graph = {
 };
 
 
-var color = JsonGraph.parse(graph, ['user', 'preferences', 0, 'value']); // Black
+var color = parse(graph, ['user', 'preferences', 0, 'value']); // Black
 
 ```
+
+
+
