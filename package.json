@@ -1,0 +1,24 @@
+{
+  "name": "jgparse",
+  "version": "1.0.0",
+  "description": "Library for using path sets to extract values from a JSON Graph object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsillitoe/jgparse.git"
+  },
+  "keywords": [
+    "jsonGraph",
+    "json",
+    "javascript"
+  ],
+  "author": "Joe Sillitoe <jsillitoe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsillitoe/jgparse/issues"
+  },
+  "homepage": "https://github.com/jsillitoe/jgparse#readme"
+}
